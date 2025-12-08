@@ -23,7 +23,7 @@ struct cadastro_produto
     
 int main()
 {
-    struct cadastro_produto produtos [50]; //nesse produtos 50, a gente substitui uma possivel variavel que sairia da struct la em cima, nao tendo a necessidade dela
+    struct cadastro_produto produtos [50]; //nesse produtos 50, a gente substitui uma possivel variavel que sairia da struct la em cima, nao tendo a necessidade dela e nela é criada a variavel produtos
     
     int i, quantidade;
     
@@ -67,3 +67,4 @@ int main()
         }
     }
 }
+
