@@ -42,7 +42,7 @@ int main()
             for (j=0; j<setores[i].quant_funcionarios; j++)
             {
                 //dentro desse for, ele vai se limitar a quantidade de funcionarios, e vai sempre colocar na parte matricula de funcionarios da struct
-                printf ("Matricula do %d funcioanrio: \n", j+1); //j+1 pra evitar que fique o zero ali
+                printf ("Matricula do %d funcionario: \n", j+1); //j+1 pra evitar que fique o zero ali
                 scanf ("%d", &setores[i].matricula_func[j]);   //de cá ele escaneia e joga la na matricula 
             }
             printf("\n");
@@ -93,3 +93,4 @@ int main()
         }
     }
 }
+
