@@ -1,3 +1,13 @@
+/*1) Faça um programa em C para cadastrar produtos, as informações a serem inseridas são:
+• Nome do produto;
+• Quantidade no estoque;
+• Preço;
+• Fornecedor.
+Obs.: O programa deve utilizar struct.
+O programa deve ser capaz de cadastrar 50 produtos.
+O programa deve armazenar as informações de cada produto e mostrar tais informações.*/
+
+
 #include <stdio.h>
 #include <string.h>
 
@@ -55,5 +65,6 @@ int main()
         }
     }
 }
+
 
 
