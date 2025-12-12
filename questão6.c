@@ -1,3 +1,11 @@
+/*6) Faça uma função que receba como entrada três strings (s1, s2 e s3) e retorne uma quarta string
+formada pela substituição de todas as ocorrências da string s2 pela string s3 dentro da string s1.
+Exemplo:
+• s1 = “A bola bateu na trave”
+• s2 = “A bola”
+• s3 = “O chute”
+◦ A resposta deve ser: “O chute bateu na trave*/
+
 #include <stdio.h>
 #include <string.h>
 
