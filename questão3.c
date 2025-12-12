@@ -1,3 +1,13 @@
+/*3) Faça um programa em C que resolva o seguinte problema. Uma empresa é divida em 10 setores,
+você foi contratado para desenvolver um programa que cadastre os setores e relacione os
+funcionários que trabalhem em um determinado setor. As informações a serem armazenadas são:
+• Nome do setor;
+• Quantidade de funcionários;
+• Matrícula dos funcionários do setor.
+Obs.: O programa deve utilizar struct.
+O controle das matrículas dos funcionários deve ser realizado por meio de um vetor.
+Faça procedimentos para mostrar as informações e realizar busca.*/
+
 #include <stdio.h>
 #include <string.h>
 
@@ -93,4 +103,5 @@ int main()
         }
     }
 }
+
 
