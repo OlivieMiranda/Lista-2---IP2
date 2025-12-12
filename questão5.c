@@ -37,7 +37,7 @@ int main()
         int ascii= string[i]; //aqui cada letra da string é convertida em seu valor numerico de ascii
 
         printf("---------------\n");
-        printf("Letra %c\n", string[i]); //imprime letra por letra da string
+        printf("Letra %c\n", string[i]); //imprime letra por letra da string ja que ta no loop
         printf("Na posição %d\n", i );
         printf("Ascii: %d\n", ascii);
         
@@ -75,3 +75,4 @@ int main()
     printf("\nMensagem criptografada: %s\n", resultado);
 
 }
+
