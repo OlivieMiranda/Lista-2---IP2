@@ -32,7 +32,7 @@ void substituir(char *s1, char *s2, char *s3, char *res)
         p = achou + strlen(s2);
     }
 
-    // 4. Copia o que sobrou da frase original (o finalzinho dela).
+    // Copia o que sobrou da frase original (o finalzinho dela).
     strcat(res, p);
 }
 
